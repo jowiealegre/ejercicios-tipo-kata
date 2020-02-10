@@ -6,3 +6,11 @@
     }
     return numx2;
 }*/
+
+/* hacer una funcion que devuelva la fcha actual en formato dd/mm/aa*/
+let fecha new Date ();
+let dia = fecha.getDate ();
+let mes = fecha.getMonth ();
+let anio =fecha.getFullYear ();
+console.log (dia + '/' mes +'/' anio);
+
